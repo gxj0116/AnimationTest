@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:delay="0.5"
+    android:animationOrder="normal"
+    android:animation="@anim/anim_item">
+
+    <!--
+        属性说明:
+        android:delay: 表示子元素开始动画的时间延迟
+        android:animationOrder: 表示子元素动画的顺序
+            有三种选项: normal、reverse和random。
+                normal: 表示顺序显示, 即排在前面的子元素先开始播放入场动画;
+                reverse: 表示逆向显示, 即排在后面的子元素先开始播放入场动画;
+                random: 随机播放入场动画。
+        android:animation: 为子元素指定具体的入场动画。
+    -->
+
+</layoutAnimation>
