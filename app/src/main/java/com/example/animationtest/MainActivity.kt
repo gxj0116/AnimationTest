@@ -66,6 +66,11 @@ class MainActivity : AppCompatActivity() {
              */
             overridePendingTransition(R.anim.enter_anim, R.anim.exit_anim)
         }
+
+        propertyAnimation.setOnClickListener{
+            val intent = Intent(MainActivity@this, PropertyAnimationActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 
